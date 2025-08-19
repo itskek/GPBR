@@ -9,7 +9,7 @@ setlocal
 
 :: === Set default Garry's Mod path ===
 set "defaultPath=C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod"
-set /p "userPath=Enter the path to garrysmod folder ("GarrysMod/garrysmod") (Press Enter for default): "
+set /p "userPath=Enter the path to garrysmod folder ("GarrysMod/garrysmod*") (Press Enter for default): "
 if "%userPath%"=="" (
     set "userPath=%defaultPath%"
 )
